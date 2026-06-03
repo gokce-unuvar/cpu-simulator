@@ -1,0 +1,4 @@
+.CODE
+start: MOV AX ,x
+loop: ADD AX ,y
+JMP loop

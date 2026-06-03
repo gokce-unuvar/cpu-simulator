@@ -1,0 +1,9 @@
+.DATA
+x DW 42
+y DB 10
+.CODE
+start: MOV AX,x
+PUSH AX
+MOV AX,y
+POP BX
+HALT
